@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+* html, * body {
+  width: 100%;
+  height: 100%;
+  background: #1e1e1e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* html div, * body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* html div h2, * body div h2 {
+  margin: 20px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* html div h1, * body div h1 {
+  margin: 0 auto 20px auto;
+  margin-font-family: 'Lato';
+  margin-padding: 0 20px;
+  margin-max-width: 960px;
+}
+
+* html div button, * body div button {
+  background: transparent;
+  padding: 5px 20px;
+  border: 2px solid #fff;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+}
+/*# sourceMappingURL=App.css.map */
